@@ -46,7 +46,10 @@ class Dashboard:
             print(e)
             messagebox.showinfo("Error","Could Not Fetch Notes")
     def edit_callback(self):
-        EditNote().initUI(self,self.db,self.curr_notes[self.listbox.curselection()[0]])
+        try:
+            EditNote().initUI(self,self.db,self.curr_notes[self.listbox.curselection()[0]])
+        except Exception as e:
+            pass
         
         
         
