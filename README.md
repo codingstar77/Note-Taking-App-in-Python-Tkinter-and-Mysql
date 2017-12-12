@@ -1,9 +1,9 @@
 # Note-Taking-App-in-Python-Tkinter-and-Mysql
 Handy Note Taking GUI Application in Python
 
-This Application  takes your notes and stores it in database
-You can add,view and delete notes at any time
-To run this ,You Need Python 3.5,PyMySQL Module and tkinter(inbuilt) Module
-If you have above dependencies then import noteapp.sql file in your mysql database
+This Application  takes your notes and stores it in database..
+You can add,view and delete notes at any time..
+To run this ,You Need Python 3.5,PyMySQL Module and tkinter(inbuilt) Module.
+If you have above dependencies then import noteapp.sql file in your mysql database.
 Now run start.py file which will start your Application
  
